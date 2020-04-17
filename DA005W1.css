@@ -1,0 +1,251 @@
+ /* entire */
+ .itemNome::before{content:"PIUMINO DA DONNA 100 GRAMMI";}
+ .itemFoto01{content:url('https://i.ibb.co/1dmXtBt/Kakao-Talk-20200404-174747485.jpg');}
+ .itemFoto02{content:url('https://i.ibb.co/mTFz7sW/19086-cover.jpg');}
+ .itemDescrizione::before{content:"Piumino da donna 100 grammi bicolore con chiusura a zip W001, W003";}
+ .itemAttenzione::before{content:"(le foto riportate nella descrizione sono reali)";}
+ .itemCondizione::before{content:"prodotto nuovo";}
+ .itemMateriale::before{content:"poliestere e nylon";}
+ .itemLunghezza::before{content:"lunghezza al sedere";}
+ .itemColori::before{content:"vari colori";}
+ .itemTaglie::before{content:"S M L XL XXL";}
+ .itemVestibilita::before{content:"VESTE DI MENO";}
+ .itemChart{content:url('https://i.ibb.co/QF7jjTQ/19087-size-chart.jpg');}
+ 
+ #serieIMG01{content:url('https://i.ibb.co/jHD8R7m/19087-cover-7.jpg');}
+ #serieIMG02{content:url('https://i.ibb.co/fCzyG1R/s-l1600-2.jpg');}
+ #serieIMG03{content:url('https://i.ibb.co/znX5v1m/19086-cover4.jpg');}
+ #serieIMG04{content:url('https://i.ibb.co/SVTLd7M/Kakao-Talk-20200409-163413978-2.jpg');}
+ 
+ #serieNme::before{content:"100 GRAMMI";}
+ #serieTxt01::before{content:"W001";}
+ #serieTxt02::before{content:"W002";}
+ #serieTxt03::before{content:"W003";}
+ #serieTxt04::before{content:"W004";}
+
+ #piaceIMG01{content:url('https://i.ebayimg.com/images/g/fO0AAOSw0Uddtyg8/s-l1600.jpg');}
+ #piaceIMG02{content:url('https://i.ebayimg.com/images/g/hfcAAOSwn8Jei4Pb/s-l1600.jpg');}
+ #piaceIMG03{content:url('https://i.ebayimg.com/images/g/xjsAAOSwsCdeDP2l/s-l1600.jpg');}
+ #piaceIMG04{content:url('https://i.ebayimg.com/images/g/7a8AAOSw1LJd9Jvf/s-l1600.jpg');}
+
+ /* mobile < 768px */
+
+ /* element */
+ a:link, a:visited {text-decoration: none;}
+ input{display: none;}
+ input[name="menuTab"]:checked+label {
+     background-color: white;
+     border-top: 2px solid gray; border-right: 1px solid #d8d8d8; border-left: 1px solid #d8d8d8; 
+ }
+ input[name="menuTab"]+label:hover {
+     background-color: white;
+     border-top: 2px solid gray; border-right: 1px solid #d8d8d8; border-left: 1px solid #d8d8d8; 
+     cursor: pointer;
+ }
+ /* class */
+ .clickMenu > label {
+     float:left;
+     text-align: center;
+     width:100%;
+     background-color: #f9f9f9;
+     padding-top: 10px; padding-bottom: 10px;
+     border-top: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; border-left: 1px solid #d8d8d8; 
+ }
+ .container {
+     font-family: Arial;
+     width: 100%; height: 100%;
+ }
+ .contentList {
+     width: 96%;
+     padding-right: 2%; padding-left: 2%;
+     border-right: 1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8; border-left: 1px solid #d8d8d8; 
+ }
+ .contentList > div {display: none;}
+ .contentIcn {
+     width: 30px; height: 30px;
+     position: relative; top: 8px; left: -5px;
+ }
+ .contentTxt {
+     position: relative; left: -20px;
+ }
+ .description table {
+     width: 100%;
+     border-collapse:collapse;
+ }
+ .description table tr td {
+     text-align: left;
+     width: 100%;
+     padding:4%;
+     border-bottom: 1px solid #d8d8d8;
+ }
+ .entryTitle {
+     text-align: center;
+     background-color: dimgrey;
+     border: 1px solid #d8d8d8;
+ }
+ .entryTitle h6 {
+     font-size: 0.75rem; font-weight: normal; color: white;
+     margin-top: 5px; margin-bottom: 5px;
+ }
+ .entryFoto img {width: 100%;}
+ .entryMatrix {
+     display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex; display: flex;
+     flex-flow: row wrap;
+     justify-content:center;
+ }
+ .rowEven{background-color:#f9f9f9;}
+ .serieBtn{
+     font-size:1.25rem; color:white; text-align:center;
+     background-color:rgb(140,36,35);
+     padding-top:4%; padding-bottom:4%;
+     border: 1px solid rgb(140,36,35);
+     border-bottom-left-radius:5px; border-bottom-right-radius:5px;
+     box-sizing:border-box;
+ }
+ .serieBtn .serieIcn{
+     content:url('https://i.ibb.co/N2kpvNr/icon-1-Copy.png');
+     width:1rem; height:1rem;
+     position:relative; top:1px; left:12px;
+ }
+ .serieTxt{
+     position:relative; left:5px;
+ }
+ /* id */
+ #detailFoto01 {
+     border-bottom: 1px dotted #d8d8d8;
+     box-sizing: border-box;
+ }
+ #detailHome{
+     display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex; display: flex;
+     flex-flow: row wrap;
+     align-items:center;
+     background-color:rgb(140,36,35);
+     border: 1px solid rgb(140,36,35);
+     border-radius:5px;
+ }
+ #menu01:checked ~ .contentList #content01 {display: block;}
+ #menu02:checked ~ .contentList #content02 {display: block;}
+ #menu03:checked ~ .contentList #content03 {display: block;}
+ #menu04:checked ~ .contentList #content04 {display: block;}
+ #pageLink .entryFoto{
+     width: 45%;
+     border: 1px dotted #d8d8d8;
+     border-radius:5px;
+     box-shadow:3px 3px 3px 3px gray;
+     box-sizing: border-box;
+     margin:2.5%;
+ }
+ #rowLast {border-bottom: none;}
+ #serieTitle{
+     background-color:rgb(140,36,35);
+     border: 1px solid rgb(140,36,35);
+ }
+ #touchBtn{width:30%;}
+ #touchTxt{
+     text-align:left;
+     width:70%;
+ }
+ #touchIcn{
+     width: 2rem; height: 2rem;
+     margin-top:5px;
+ }
+ #touchSpc{display:inline;}
+
+ @media screen and (min-width:375px) {
+     #touchBtn{width:32.5%;}
+     #touchTxt{width:67.5%;}
+ }
+ @media screen and (min-width:425px) {
+     #touchBtn{width:20%;}
+     #touchTxt{width:80%;}
+     #touchSpc{display:none;}
+ }
+ /* Tablet >= 768px */
+ @media screen and (min-width:768px), screen and (orientation:landscape){
+     /* class */
+     .clickMenu > label {
+         width: 25%;
+         box-sizing: border-box;
+     }
+     .contentList {
+         width: 100%;
+         box-sizing: border-box;
+     }
+     .description table {
+         width: 100%; height: 100%;
+     }
+     .description table tr td {
+         padding:0 4%;
+     }
+     .entryTitle h6 {
+         font-size: 1.25rem;
+         margin-top: 10px; margin-bottom: 10px;
+     }
+     /* id */
+     #detailName {
+         width: 100%;
+         box-sizing: border-box;
+         order: 1;
+     }
+     #detailFoto01 {
+         width: 50%;
+         border-bottom: none; border-right: 1px dotted #d8d8d8;
+         box-sizing: border-box;
+         order: 2;
+     }
+     #detailFoto02 {
+         width: 50%;
+         box-sizing: border-box;
+         order: 3;
+     }
+     #detailCara {
+         width: 100%;
+         box-sizing: border-box;
+         order: 4;
+     }
+     #detailSize {
+         display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex; display: flex;
+         align-items: center;
+         order: 5;
+         width: 50%;
+         box-sizing: border-box;
+     }
+     #detailDesc {
+         display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex; display: flex;
+         align-items: center;
+         order: 6;
+         width: 50%;
+         box-sizing: border-box;
+     }
+     #detailHome {
+         order: 7;
+         width: 100%;
+         box-sizing: border-box;
+     }
+     #pageDetail {
+         display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex; display: flex;
+         flex-flow: row wrap;
+     }
+     #pageLink .entryFoto{
+         width: 20%;
+         box-sizing: border-box;
+         border-right: 1px dotted #d8d8d8;
+     }
+     #touchBtn{
+         width:15%;
+         text-align:right;
+     }
+     #touchTxt{
+         width:80%;
+         text-align:center;
+     }
+     #touchIcn{
+         width: 3.5rem; height: 3.5rem;
+     }
+     #touchSpc{display:none;}
+ }
+
+ /* Desktop >= 992px */
+ @media screen and (min-width:992px) {
+     .description table tr td p {font-size: 1.25rem;}
+ }
