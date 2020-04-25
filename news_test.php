@@ -3,7 +3,7 @@
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT, "http://www.chosun.com/site/data/rss/rss.xml");
+    curl_setopt($ch, CURLOPT, "http://myhome.chosun.com/rss/www_section_rss.xml");
     $url_source = curl_exec($ch);
     curl_close($ch);
 
